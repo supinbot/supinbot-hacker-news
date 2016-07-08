@@ -1,14 +1,16 @@
 module.exports = function(config) {
-	return config.loadConfig('hacker-news.json', {
+	return config.loadConfig({
 		refresh_rate: {
 			doc: 'Amount of time in ms between each query',
 			format: 'nat',
-			default: 120000
+			default: 120000,
+			env: 'SUPINBOT_HN_INTERVAL'
 		},
 		channel: {
 			doc: 'The name or channel ID to posts news to',
 			format: String,
-			default: '#news'
+			default: '#news',
+                        env: 'SUPINBOT_HN_CHANNEL'
 		}
 	});
 };

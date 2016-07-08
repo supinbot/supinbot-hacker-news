@@ -1,6 +1,6 @@
 {
   "name": "supinbot-hacker-news",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Relay Hacker News activity to Slack.",
   "main": "index.js",
   "repository": {
