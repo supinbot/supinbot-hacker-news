@@ -1,18 +1,18 @@
 {
   "name": "supinbot-hacker-news",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Relay Hacker News activity to Slack.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/Starfox64/supinbot-hacker-news.git"
+    "url": "git+https://github.com/supinbot/supinbot-hacker-news.git"
   },
   "author": "Starfox64 <louisdijon21@yahoo.fr>",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/Starfox64/supinbot-hacker-news/issues"
+    "url": "https://github.com/supinbot/supinbot-hacker-news/issues"
   },
-  "homepage": "https://gitlab.com/Starfox64/supinbot-hacker-news#README",
+  "homepage": "https://github.com/supinbot/supinbot-hacker-news#README",
   "dependencies": {
     "async": "^2.0.0-rc.5",
     "request": "^2.72.0"
